@@ -1,0 +1,14 @@
+name = "peskybirds"
+type = "webpack"
+account_id = "606d039d3c8ba5249416e318988a31ad"
+workers_dev = false
+route = ""
+zone_id = ""
+
+[env.production]
+route = "peskybirds.com/*"
+zone_id = "07eeeff1a5f3f57672e6efbb5b7e96f4"
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"
