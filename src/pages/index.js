@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import DiscordButton from "../components/discordButton"
+import Countdown from "../components/countdown"
 
 const IndexPage = () => (
   <Layout>
@@ -71,6 +72,8 @@ const IndexPage = () => (
         </clipPath>
       </defs>
     </svg>
+      <br />
+        <Countdown />
       <br />
         <DiscordButton />
     </div>

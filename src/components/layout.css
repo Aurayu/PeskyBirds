@@ -1,5 +1,6 @@
 :root {
   --rad-red: #DD123E;
+  --text-shadow: #0D4A8C;
 }
 html {
   font-family: 'Rubik', sans-serif;
@@ -623,4 +624,50 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+/* Countdown Clock */
+
+#clockdiv{
+  font-family: Rubik, sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  box-sizing: initial;
+  margin-top: 100px;
+}
+#clockdiv > div{
+  display: inline-block;
+}
+#clockdiv div > span{
+  padding: 0.5rem;
+  display: inline-block;
+}
+.smalltext{
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.time {
+  font-size: 3rem;
+  display: block;
+  font-family: Luckiest Guy, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant-numeric: tabular-nums;
+  width: 2ch;
+  filter: drop-shadow(-0.05em 0.05em 0 var(--text-shadow));
+}
+.time::before {
+  content: "";
+  margin-top: -0.03em;
+  display: block;
+  height: 0;
+}
+.time::after {
+  content: "";
+  margin-bottom: -0.3191em;
+  display: block;
+  height: 0;
 }
