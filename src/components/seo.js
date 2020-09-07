@@ -52,6 +52,18 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: 'og:image',
+          content: 'https://peskybirds.com/pb-site-image.png'
+        },
+        {
+          property: 'og:image:width',
+          content: '1200'
+        },
+        {
+          property: 'og:image:height',
+          content: '630'
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },

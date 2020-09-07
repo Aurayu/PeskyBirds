@@ -73,8 +73,6 @@ const IndexPage = () => (
       </defs>
     </svg>
       <br />
-        <Countdown />
-      <br />
         <DiscordButton />
     </div>
     </Link>
