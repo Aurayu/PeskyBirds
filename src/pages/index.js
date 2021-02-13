@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Link
-      to="https://discord.gg/uvH53dn"
+      to="https://discord.gg/uj7hX4qCSP"
       style={{
         textDecoration: `none`
       }}
